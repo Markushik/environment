@@ -1,5 +1,14 @@
 local opt = vim.opt
 local g = vim.g
+local cmd = vim.cmd
+
+cmd("colorscheme monokai-nightasty")
+
+-- other
+opt.paste = true
+opt.termguicolors = true
+opt.background = "dark" 
+
 
 -- indention opt
 opt.autoindent = true

@@ -23,6 +23,14 @@ require("lazy").setup({
   spec = 
       {
      	{ "polirritmico/monokai-nightasty.nvim" },
-      },
+        { "nvim-neo-tree/neo-tree.nvim" },
+        { "nvim-tree/nvim-web-devicons"},
+        { "MunifTanjim/nui.nvim" }, 
+        { "folke/noice.nvim" },
+        { "nvim-lua/plenary.nvim" },
+        { "kdheepak/lazygit.nvim" },
+        { "lewis6991/gitsigns.nvim" },
+        { "luukvbaal/nnn.nvim" },
+      }, 
     }
 )
